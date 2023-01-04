@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Cabeçario   */
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container-logo {
+    display: flex;
+    
+    height: 20vh;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-left: 10px;
+}
+.container-title h1 {
+    font-size: 160px;
+}
+
+.container-title p {
+    font-size: 80px;
+}
+
+ .separação {
+    position: relative;
+    left: 40%;
+    background-color: white;
+    height: 10vh;
+    width: 2px;
+} 
+
+.header-frase {
+color: white;
+padding-top: 8vh;
+font-size: 40px;
+} 
