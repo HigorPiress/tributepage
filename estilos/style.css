@@ -1,17 +1,21 @@
 @charset "UTF-8";
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-
-/* Cabeçario   */
-
 header {
     background-color: black;
     height: 120px;
-    width: 120px;
 }
 
-
+.container {
+    background-color: blue;
+    height: 120px;
+    width: 1000px;
+}
