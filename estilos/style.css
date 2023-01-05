@@ -1,48 +1,17 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
 }
 
 
 /* Cabeçario   */
 
-header { 
+header {
     background-color: black;
-    width: 100vw;
-    height: 15vh;
+    height: 120px;
+    width: 120px;
 }
 
-.container {
-    display: flex;
-    width: 80vw;
-    height: 15vh;
-}
 
-.logo {
-    width: 70vw;
-    height: 15vh;
-}
-
-.logo img { 
-    height: 15vh;
-}
-
-.title-header {
-    width: 60vw;
-    height: 15vh;
-}
-
-.title-header h1 {
-    padding-top: 4vh;
-    font-size: 150px;
-    color:white
-}
-
-.title-header p {
-    padding-left: 500px;
-    font-size: 80px;
-    color: white;
-}
