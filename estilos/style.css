@@ -10,12 +10,39 @@ body {
 }
 
 header {
+    display: flex;
     background-color: black;
     height: 120px;
 }
 
 .container {
-    background-color: blue;
+    display: flex;
+    justify-content: center;
     height: 120px;
-    width: 1000px;
+    width: 100vw;
+    margin: auto;
 }
+
+.logo img {
+    height: 120px;
+    position: absolute;
+    right: 96%;
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.title-header > p {
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+
+
+
