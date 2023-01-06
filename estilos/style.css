@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -44,5 +44,28 @@ header {
     font-size: 20px;
 }
 
+/* section intro */
+
+.intro {
+    display: flex;
+}
+
+.intro-title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#animation-intro {
+    width: 40px;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+}
+
+#imagem-intro {
+    padding-top: 5px;
+    width: 400px;
+}
+
+.intro-text {}
 
 
