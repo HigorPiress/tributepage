@@ -25,24 +25,24 @@ header {
 
 .logo img {
     height: 120px;
-    position: absolute;
-    right: 96%;
 }
 
-.title-header {
+.container-title {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.title {
     color: white;
+    font-size: 35px;
 }
 
-.title-header > p {
-   display: flex;
-   justify-content: center;
-   
+.descrition {
+    color: white;
+    font-size: 20px;
 }
-
-
 
 
 
