@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 /* Header */
@@ -47,6 +48,10 @@ header {
 
 /*  INTRO  */
 
+.container-2 {
+    display: flex;
+    width: 1500px;
+}
 
 #geral {
     display: flex;
@@ -62,6 +67,10 @@ header {
     width: 45px;
 }
 
+.bio-img img {
+    height: 400px;
+}
+
 .bio-history {
     padding-left: 15px;
 }
@@ -69,7 +78,26 @@ header {
 .history-text {
     text-align: justify;
     width: 350px;
+    line-height: 22px;
 }
+
+/* Aside */
+
+.box-aside {
+    padding-top: 60px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    margin: 10px;
+}
+
 
 
 
