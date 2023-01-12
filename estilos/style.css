@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0px;
-  
-}
 
 h1, blockquote {
     text-align: center;
@@ -21,7 +16,12 @@ h1, blockquote {
 
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
+}
+
+h3 {
+    color: brown;
+    padding-left: 2px;
 }
 
 blockquote {
@@ -29,6 +29,23 @@ blockquote {
     padding: 10px;
     padding-bottom: 70px;
 }
+
+
+#main {
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 50px, 70px ;
+    border-radius: 30px;
+    background-color: #eee;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
 
 #img-div {
     display: flex;
@@ -43,6 +60,14 @@ blockquote {
     color: white;
     font-size: 2em;
     padding: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
 }
 
 
