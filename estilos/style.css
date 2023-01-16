@@ -89,10 +89,45 @@ ul li {
     margin-right: 100px;
 }
 
+#image2 {
+    border-radius: 50px;
+    height: 650px;
+    animation-name: edited;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes edited {
+   0% { background-color: black;
+        top:0px;} 
+
+    25% {
+        background-color: brown;
+    }
+
+    50% {
+        background-color: white;
+        top: 100px;
+    }
+
+    75% {
+        background-color: brown;
+    }
+
+    100% {
+        background-color: brown;
+        bottom: 0px;
+    }
+}
+
 #frase {
     font-size:1.5em;
     padding: 10px;
     padding-bottom: 70px;
+    
 }
 
 
@@ -100,7 +135,7 @@ ul li {
 
 
 
-
+ 
 
 
 
