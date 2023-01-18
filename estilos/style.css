@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-h1, blockquote {
+h1, blockquote, h4 {
     text-align: center;
 }
 
@@ -22,6 +22,11 @@ h3 {
     color: brown;
     padding-left: 2px;
     font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding-bottom: 30px;
 }
 
 blockquote {
@@ -87,11 +92,12 @@ a:hover {
 ul li {
     margin-left: 100px;
     margin-right: 100px;
+    font-size: 1.1em;
 }
 
 #image2 {
     border-radius: 50px;
-    height: 650px;
+    height: 700px;
     animation-name: edited;
     animation-iteration-count: infinite;
     animation-duration: 15s;
@@ -119,8 +125,20 @@ ul li {
 
     100% {
         background-color: brown;
-        bottom: 0px;
+        top: 0px;
     }
+} 
+
+#container {
+    display: flex;
+}
+
+#cont {
+    margin-top: 30px;
+}
+
+#text {
+    font-size: 1.3em;
 }
 
 #frase {
