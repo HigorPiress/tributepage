@@ -213,6 +213,61 @@ footer {
 }
 
 
+@media (max-width:768px) {
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    blockquote  {
+        font-size: 1em;
+        padding-bottom: 0px;
+    }
+
+    #image2 {
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+
+    p {
+        font-size: 1em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #main {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    #text {
+        font-size: 1em;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        font-size: 16px;
+        margin-left: -120px;
+        text-align:start;  
+        font-weight: bold;
+    }
+
+    em {
+        font-size: 16px;
+    }
+}
+
+
+
 
 
 
