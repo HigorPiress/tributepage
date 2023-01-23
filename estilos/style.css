@@ -267,6 +267,15 @@ footer {
     }
 }
 
+@media (max-width:1200px) {
+
+    #image2 {
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+}
+
 
 
 
